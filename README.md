@@ -1,4 +1,4 @@
-# H4v3Lab
+# Gonus
 
 **Building practical AI systems — local LLM inference, agent workflows, and Android tools.**
 
