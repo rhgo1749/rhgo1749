@@ -16,6 +16,7 @@
 ### Open-source contribution
 
 - **[Strata](https://github.com/Niko1221/Strata)** — contributed `--shared-expert-arena` upstream at the maintainer's request. See [PR #129](https://github.com/Niko1221/Strata/pull/129) and [v0.1.30](https://github.com/Niko1221/Strata/releases/tag/v0.1.30).
+- **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** — upstreamed **[Hermes Antigravity ACP](https://github.com/rhgo1749/hermes-antigravity-acp)** as a community model-provider plugin in the Hermes plugin catalog. Merged via [PR #153182](https://github.com/NousResearch/hermes-agent/pull/153182).
 
 ### About / 소개
 
