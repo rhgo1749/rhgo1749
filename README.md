@@ -1,64 +1,33 @@
 # Gonus
 
-**Building practical AI systems — local LLM inference, agent workflows, and Android tools.**
+**AI Systems & Forward Deployed Engineer — Local LLM Serving, Agent Workflows, and Air-Gapped Operations.**
 
-로컬 LLM 추론과 에이전트 자동화를 직접 구축하고, 성능과 신뢰성을 실측하며 개선하고 있습니다.
+5년간 공공기관 폐쇄망 전산 환경에서 시스템 운영과 외주·내부 개발자 협업을 담당했고, 현재는 로컬 LLM 추론 서빙과 AI 에이전트 자동화를 직접 구축하며 성능과 신뢰성을 실측으로 검증하고 있습니다.
 
-### What I work on
+### Background & Focus
 
-| Area | What I build & investigate |
+| Area | What I bring & build |
 | --- | --- |
-| **LLM inference & serving** | Quantization, heterogeneous GPU serving, context/KV-cache behavior, and performance benchmarking |
-| **Agent workflows** | Hermes-based automation, GitHub ↔ Kanban lifecycle integration, review and recovery reliability |
-| **Android** | **CtrlHangul**, a free Korean/English input-method app (source repository is private) |
-| **Engineering practice** | Reproducible experiments, regression tests, evidence-backed performance and reliability work |
+| **Air-gapped & On-Premises IT (5 yrs)** | Public-sector closed-network operations, security/compliance constraints, translating field requirements with developers |
+| **LLM Inference & Serving** | Multi-GPU & heterogeneous serving, quantization, KV-cache behavior, OpenAI/Anthropic-compatible local APIs (`3x RTX 5070 Ti` benchmarks) |
+| **Agent Workflows & Protocols** | ACP v1 JSON-RPC integration (`hermes-antigravity-acp`), GitHub ↔ Kanban lifecycle automation, policy-gated tool boundaries |
+| **Android** | **CtrlHangul**, a Korean/English developer keyboard app (private repository) |
 
-### Open-source contribution
+### Open-source Contributions
 
-- **[Strata](https://github.com/Niko1221/Strata)** — contributed `--shared-expert-arena` upstream at the maintainer's request. See [PR #129](https://github.com/Niko1221/Strata/pull/129) and [v0.1.30](https://github.com/Niko1221/Strata/releases/tag/v0.1.30).
-- **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** — upstreamed **[Hermes Antigravity ACP](https://github.com/rhgo1749/hermes-antigravity-acp)** as a community model-provider plugin in the Hermes plugin catalog. Merged via [PR #153182](https://github.com/NousResearch/hermes-agent/pull/153182).
+- **[Strata](https://github.com/Niko1221/Strata)** — Contributed `--shared-expert-arena` upstream at maintainer's request ([PR #129](https://github.com/Niko1221/Strata/pull/129), [v0.1.30](https://github.com/Niko1221/Strata/releases/tag/v0.1.30))
+- **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** — Submitted **[Hermes Antigravity ACP](https://github.com/rhgo1749/hermes-antigravity-acp)** as a community model-provider plugin ([PR #153182](https://github.com/NousResearch/hermes-agent/pull/153182))
 
-### About / 소개
+### Selected Projects
 
-<details open>
-<summary><strong>English</strong></summary>
+- **[hermes-antigravity-acp](https://github.com/rhgo1749/hermes-antigravity-acp)** — Policy-gated ACP v1 JSON-RPC provider for Hermes with cross-OS CI matrix & SHA-256 verified installs
+- **[qwen3.8-flash-next-strata-gpu-per-lane-recipe](https://github.com/rhgo1749/qwen3.8-flash-next-strata-gpu-per-lane-recipe)** — Measured 3× RTX 5070 Ti multi-lane serving & concurrency recipe
 
-I build and experiment with LLM inference systems, heterogeneous serving, and efficient local AI runtimes. I also work on automation and Android tools, with a focus on measured results and maintainable systems.
+---
 
-**Open to full-time roles, research collaborations, and graduate research opportunities.**
+Open to **Forward Deployed Engineer (FDE)**, **AI Solutions Engineer**, and **LLM Systems** roles.
 
-</details>
-
-<details>
-<summary><strong>한국어</strong></summary>
-
-LLM 추론 시스템, 이기종 GPU 서빙, 효율적인 로컬 AI 런타임을 개발하고 실험합니다. Hermes 기반 작업 자동화와 Android 입력기 개발도 진행하고 있으며, 실측 결과와 검증 가능한 개선을 중요하게 생각합니다.
-
-**정규직 채용, 연구 협업, 대학원 연구 기회에 열려 있습니다.**
-
-</details>
-
-<details>
-<summary><strong>中文</strong></summary>
-
-我专注于 LLM 推理系统、异构推理服务以及高效本地 AI 运行时的开发与实验，也探索智能体自动化和 Android 工具开发。
-
-**欢迎全职工作机会、研究合作以及研究生研究机会。**
-
-</details>
-
-<details>
-<summary><strong>日本語</strong></summary>
-
-LLM 推論システム、異種ハードウェアを活用したサービング、効率的なローカル AI ランタイムの開発・検証に取り組んでいます。エージェント自動化と Android ツールも開発しています。
-
-**フルタイムの採用、研究協力、大学院での研究機会を歓迎しています。**
-
-</details>
-
-### Contact
-
-- 📫 **Email:** [rhgo1749@naver.com](mailto:rhgo1749@naver.com)
-- 💻 **GitHub:** [@rhgo1749](https://github.com/rhgo1749)
+- **Email:** rhtlemfwkd@gmail.com
+- **GitHub:** [@rhgo1749](https://github.com/rhgo1749)
 
 <sub>☕ Optional support for independent development: [Buy Me a Coffee](https://buymeacoffee.com/h4v3fun). Support is voluntary and does not unlock features or benefits.</sub>
